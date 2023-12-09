@@ -289,7 +289,7 @@ input[type=text]::placeholder {
 }
 .title {
   margin-bottom: 0;
-  color: yellow;
+  color: var(--clr-white);
   letter-spacing: 2px;
   transition: var(--transition);
 }
