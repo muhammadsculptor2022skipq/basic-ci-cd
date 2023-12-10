@@ -1,5 +1,5 @@
 # tests/test_app.py
-from app import app
+from app.app import app  # Import the Flask app instance
 from app.service import ToDoService
 import json
 
