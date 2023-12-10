@@ -1,5 +1,6 @@
 # tests/test_app.py
 from app import app
+from app.service import ToDoService
 import json
 
 def test_health_check():
